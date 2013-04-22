@@ -1,16 +1,16 @@
 from settings import *
 
 
-UNIQUE_PREFIX = 'tastybackbonepie'
+UNIQUE_PREFIX = 'tastybackbonepie-djangoproject'
 
 DEPLOYMENT = {
     'git_repository': 'git@github.com:sspross/%s.git' % UNIQUE_PREFIX,
     'git_branch': 'master',
     'git_remote': 'origin',
     'hosts': ['silvan.spross.ch'],
-    'user': 'root',
+    'user': 'www-data',
     'project': 'djangoproject',
-    'root': '/root/projects/%s' % UNIQUE_PREFIX,
+    'root': '/www-data/projects/%s' % UNIQUE_PREFIX,
     'celery_worker': '%s_celery' % UNIQUE_PREFIX,
     'rabbitmq_vhost': UNIQUE_PREFIX,
     'rabbitmq_username': UNIQUE_PREFIX,

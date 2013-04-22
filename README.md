@@ -1,3 +1,5 @@
+Django test project for [TastyBackbonePie](https://github.com/sspross/tastybackbonepie)
+
 ## Requirements
 
 Installed [Python](http://python.org/) and [Virtualenv](http://pypi.python.org/pypi/virtualenv). See [this guide](http://install.python-guide.org/) for guidance.
